@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+.chat_Container{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.chat_box{
+    height: 90%;
+    overflow: auto;
+}
+.chat_input,.entry_input{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+.chat_input input,.entry_input input{
+    width: 80%;
+    border: none;
+    padding: 0.5rem;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 10px;
+
+}
+.chat_input button,.entry_input button{
+    width: 19%;
+    padding: 10px 20px;
+    border: none;
+    background-color: transparent;
+    color: green;
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    
+}
+.chat{
+    width: 100%;
+    max-width: 40%;
+    padding: 10px;display: flex;
+    flex-direction: column;
+    background-color: green;
+    margin: 1rem;
+    border-radius: 10px;
+   
+}
+.chat.right{
+    /* color: white; */
+    margin-left: auto;
+}
+.chat.left{
+    margin-right: auto;
+    text-align: end;
+    background-color: #ccc;
+}
+.name{
+    font-weight: bold;
+    text-align: start;
+
+}
+.text{
+    font-size: 12px;
+    text-align: start;
+}
+.hide{
+    display: none;
+}
+.join{
+    max-width: 80%;
+padding: 5px;
+text-align: center;
+background-color: skyblue;
+font-size: 15px;
+color: white;
+}
+.leave{
+    max-width: 80%;
+    padding: 5px;
+    text-align: center;
+    background-color:red;
+    color: white;
+}
